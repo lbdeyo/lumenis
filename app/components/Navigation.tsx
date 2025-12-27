@@ -12,8 +12,11 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="w-full font-sans" style={{ backgroundColor: "rgb(76, 56, 89)" }}>
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <nav
+      className="w-full font-sans"
+      style={{ backgroundColor: "rgb(76, 56, 89)" }}
+    >
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="transition-opacity hover:opacity-80">
           <Image
             src="/img/lumenis-partners-logo.svg"
@@ -23,7 +26,7 @@ export default function Navigation() {
             priority
           />
         </Link>
-        
+
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6">
           <Link
@@ -88,4 +91,3 @@ export default function Navigation() {
     </nav>
   );
 }
-
