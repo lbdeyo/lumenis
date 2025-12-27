@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
-      <main className="mx-auto flex min-h-screen w-full max-w-7xl flex-col items-start justify-start pt-2 pb-32 px-6 bg-white dark:bg-black">
+      <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col items-start justify-start pt-2 pb-32 px-6 bg-white dark:bg-black">
         <div className="flex flex-col items-start gap-6 text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight">
             Contact Us
