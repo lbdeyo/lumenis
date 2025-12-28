@@ -26,9 +26,9 @@ export default function Home() {
           Leadership: The Journey Within
         </h1>
         <p className="mb-8 text-xl font-semibold max-w-4xl leading-10  text-black text-left dark:text-zinc-50">
-          Lumenis Partners is a boutique Executive Mentoring and Executive
-          Search firm helping individuals and business thrive through the
-          careful exploration and assessment of human talent.
+          Lumenis Partners is a boutique Executive Mentoring firm helping
+          individuals and business thrive through the careful fostering of human
+          talent.
         </p>
         <div className="relative w-full">
           <video
