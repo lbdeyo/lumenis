@@ -16,7 +16,7 @@ export default function Navigation() {
       className="w-full font-sans"
       style={{ backgroundColor: "rgb(76, 56, 89)" }}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <Link href="/" className="transition-opacity hover:opacity-80">
           <Image
             src="/img/lumenis-partners-logo.svg"
