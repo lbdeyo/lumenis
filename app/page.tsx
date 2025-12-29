@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
-      <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-white dark:bg-black">
+      <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-white dark:bg-black">
         <h1 className="mb-4 mt-2 text-5xl font-semibold leading-14 text-left">
           Leadership: The Journey Within
         </h1>
