@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Lumenis Partners | About",
@@ -14,10 +15,13 @@ export default function About() {
           </h1>
 
           <div className="max-w-4xl w-full">
-            <img
+            <Image
               src="/img/anna-maria.avif"
               alt="Anna Maria Larsen"
+              width={300}
+              height={400}
               className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              priority
             />
             <div className="space-y-6">
               <p className="text-lg leading-8 text-white">
@@ -88,6 +92,14 @@ export default function About() {
               come.&quot; — Will Loughran, Chief Operating Officer, Concord
               Hospitality
             </blockquote>
+            <Image
+              src="/testimonial-logos/concord-logo-white.webp"
+              alt="Concord Hospitality"
+              width={200}
+              height={200}
+              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              priority
+            />
 
             <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;At what proved to be an inflection point in my
@@ -98,6 +110,14 @@ export default function About() {
               Ramona Mockoviak, Senior Managing Director, Chevy Chase Trust
             </blockquote>
 
+            <Image
+              src="/testimonial-logos/chevy-chase-logo.png"
+              alt="Chevy Chase Trust"
+              width={300}
+              height={400}
+              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              priority
+            />
             <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;Anna Maria helped me find balance and clarity as CEO of a
               $140M+ organization. I&apos;d always been a strong executor, but
@@ -110,7 +130,14 @@ export default function About() {
               and healthier overall—physically, emotionally, and
               spiritually.&quot; — Mary Kelly, CEO, StrataTech Education Group
             </blockquote>
-
+            <Image
+              src="/testimonial-logos/logo_stratatech-white.svg"
+              alt="StrataTech Education Group"
+              width={200}
+              height={200}
+              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              priority
+            />
             <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;Fresh off selling my business, and looking to develop my
               skills to move to the next level, Anna Maria brought wisdom from
@@ -120,7 +147,30 @@ export default function About() {
               approach the world today.&quot; — Sam Jonas, CEO, Serial
               Entrepreneur.
             </blockquote>
+            <Image
+              src="/testimonial-logos/serial-entrepreneur-logo.png"
+              alt="Serial Entrepreneur"
+              width={200}
+              height={200}
+              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              priority
+            />
 
+            <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
+              &quot;Anna Maria&apos;s mentorship transformed not just my career
+              but my whole life journey. Her supportive, caring, and challenging
+              approach helped me discover myself more deeply, flourish, and lead
+              with purpose.&quot; — Mooyeon Oh-Park, MD Chief Medical Officer,
+              Burke Rehabilitation Hospital
+            </blockquote>
+            <Image
+              src="/testimonial-logos/burke-logo.png"
+              alt="Burke Rehabilitation Hospital"
+              width={200}
+              height={200}
+              className="float-left rounded-lg mr-6 mb-2 max-w-xs"
+              priority
+            />
             <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;Anna Maria helped me as an Executive understand what it
               truly means to be authentic, to operate within my strengths, and
@@ -138,14 +188,6 @@ export default function About() {
               challenging phases of my leadership career, aways walking beside
               me with wisdom and care. She is truly one of a kind!&quot; — Jeff
               Nichols, CEO, Minnesota Autism Center.
-            </blockquote>
-
-            <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
-              &quot;Anna Maria&apos;s mentorship transformed not just my career
-              but my whole life journey. Her supportive, caring, and challenging
-              approach helped me discover myself more deeply, flourish, and lead
-              with purpose.&quot; — Mooyeon Oh-Park, MD Chief Medical Officer,
-              Burke Rehabilitation Hospital
             </blockquote>
           </div>
         </div>

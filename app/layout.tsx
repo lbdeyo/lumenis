@@ -17,6 +17,7 @@ const libreBodoni = Libre_Bodoni({
   variable: "--font-libre-bodoni",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {

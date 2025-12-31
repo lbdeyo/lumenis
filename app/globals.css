@@ -30,3 +30,8 @@ body {
 h1 {
   color: #f9b731;
 }
+
+em {
+  font-style: italic;
+  font-variant: normal;
+}
