@@ -7,8 +7,8 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
-      <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-white dark:bg-black">
+    <div className="flex min-h-screen items-center justify-center bg-black">
+      <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-black">
         <div className="flex flex-col items-start gap-8 text-left w-full">
           <h1 className="text-5xl font-semibold leading-10 tracking-tight">
             About Lumenis
