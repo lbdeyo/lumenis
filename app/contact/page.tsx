@@ -63,8 +63,8 @@ export default function Contact() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
-      <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-white dark:bg-black">
+    <div className="flex min-h-screen items-center justify-center bg-black">
+      <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-black">
         <div className="flex flex-col items-start gap-8 text-left w-full">
           <h1 className="text-5xl font-semibold leading-10 tracking-tight">
             Contact
@@ -77,7 +77,7 @@ export default function Contact() {
             <div className="flex flex-col gap-2">
               <label
                 htmlFor="name"
-                className="text-lg text-zinc-950 dark:text-zinc-50"
+                className="text-lg text-zinc-50"
               >
                 Name
               </label>
@@ -88,14 +88,14 @@ export default function Contact() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg bg-white dark:bg-zinc-900 text-zinc-950 dark:text-zinc-50 focus:outline-none focus:ring-2 focus:ring-zinc-400 dark:focus:ring-zinc-500"
+                className="px-4 py-3 border border-zinc-600 rounded-lg bg-zinc-900 text-zinc-50 focus:outline-none focus:ring-2 focus:ring-zinc-500"
               />
             </div>
 
             <div className="flex flex-col gap-2">
               <label
                 htmlFor="email"
-                className="text-lg text-zinc-950 dark:text-zinc-50"
+                className="text-lg text-zinc-50"
               >
                 Email
               </label>
@@ -106,14 +106,14 @@ export default function Contact() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg bg-white dark:bg-zinc-900 text-zinc-950 dark:text-zinc-50 focus:outline-none focus:ring-2 focus:ring-zinc-400 dark:focus:ring-zinc-500"
+                className="px-4 py-3 border border-zinc-600 rounded-lg bg-zinc-900 text-zinc-50 focus:outline-none focus:ring-2 focus:ring-zinc-500"
               />
             </div>
 
             <div className="flex flex-col gap-2">
               <label
                 htmlFor="phone"
-                className="text-lg text-zinc-950 dark:text-zinc-50"
+                className="text-lg text-zinc-50"
               >
                 Phone Number
               </label>
@@ -124,14 +124,14 @@ export default function Contact() {
                 value={formData.phone}
                 onChange={handleChange}
                 required
-                className="px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg bg-white dark:bg-zinc-900 text-zinc-950 dark:text-zinc-50 focus:outline-none focus:ring-2 focus:ring-zinc-400 dark:focus:ring-zinc-500"
+                className="px-4 py-3 border border-zinc-600 rounded-lg bg-zinc-900 text-zinc-50 focus:outline-none focus:ring-2 focus:ring-zinc-500"
               />
             </div>
 
             <div className="flex flex-col gap-2">
               <label
                 htmlFor="comment"
-                className="text-lg text-zinc-950 dark:text-zinc-50"
+                className="text-lg text-zinc-50"
               >
                 Comment
               </label>
@@ -150,8 +150,8 @@ export default function Contact() {
               <div
                 className={`px-4 py-3 rounded-lg ${
                   submitStatus.type === "success"
-                    ? "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200"
-                    : "bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200"
+                    ? "bg-green-900 text-green-200"
+                    : "bg-red-900 text-red-200"
                 }`}
               >
                 {submitStatus.message}
@@ -161,7 +161,7 @@ export default function Contact() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="mt-4 px-8 py-3 bg-zinc-950 dark:bg-zinc-50 text-white dark:text-zinc-950 rounded-lg font-semibold transition-colors hover:bg-zinc-800 dark:hover:bg-zinc-200 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="mt-4 px-8 py-3 bg-zinc-50 text-zinc-950 rounded-lg font-semibold transition-colors hover:bg-zinc-200 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isSubmitting ? "Submitting..." : "Submit"}
             </button>
