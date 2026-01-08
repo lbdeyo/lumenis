@@ -38,7 +38,6 @@ export default function Home() {
             ref={videoRef}
             className="w-full rounded-lg"
             controls={showControls}
-            loop
             onPause={handlePause}
           >
             <source src="/video/lumenis-video.mp4" type="video/mp4" />
@@ -60,10 +59,10 @@ export default function Home() {
             </button>
           )}
         </div>
-        <p className="text-2xl leading-8 text-white">
+        <p className="text-2xl mt-2 leading-8 text-white">
           If this resonates, a conversation may be useful.{" "}
           <a href="/contact" className="text-teal-200 hover:underline">
-            Request a private introduction.
+            Request a private introduction with me.
           </a>
         </p>
       </main>
