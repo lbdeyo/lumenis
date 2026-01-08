@@ -10,7 +10,7 @@ export default function About() {
     <div className="flex min-h-screen items-center justify-center bg-black">
       <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-black">
         <div className="flex flex-col items-start gap-8 text-left w-full">
-          <h1 className="text-5xl font-semibold leading-10 tracking-tight">
+          <h1 className="text-5xl font-normal leading-10 tracking-tight">
             About Lumenis
           </h1>
 
@@ -75,7 +75,7 @@ export default function About() {
             <div className="clear-both"></div>
           </div>
 
-          <h2 className="text-4xl font-semibold leading-10 tracking-tight mt-12 mb-6 clear-both">
+          <h2 className="text-4xl font-normal leading-10 tracking-tight mt-12 mb-6 clear-both">
             Testimonials
           </h2>
 
