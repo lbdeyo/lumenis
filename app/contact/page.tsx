@@ -66,7 +66,7 @@ export default function Contact() {
     <div className="flex min-h-screen items-center justify-center bg-black">
       <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-black">
         <div className="flex flex-col items-start gap-8 text-left w-full">
-          <h1 className="text-5xl font-semibold leading-10 tracking-tight">
+          <h1 className="text-5xl font-normal leading-10 tracking-tight">
             Contact
           </h1>
 
@@ -161,7 +161,7 @@ export default function Contact() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="mt-4 px-8 py-3 bg-zinc-50 text-zinc-950 rounded-lg font-semibold transition-colors hover:bg-zinc-200 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="mt-4 px-8 py-3 bg-zinc-50 text-zinc-950 rounded-lg font-normal transition-colors hover:bg-zinc-200 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isSubmitting ? "Submitting..." : "Submit"}
             </button>

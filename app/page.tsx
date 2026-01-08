@@ -22,10 +22,10 @@ export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-black">
       <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-black">
-        <h1 className="mb-4 mt-2 text-5xl font-semibold leading-14 text-left">
+        <h1 className="mb-4 mt-2 text-5xl font-normal leading-14 text-left">
           Leadership: The Journey Within
         </h1>
-        <p className="text-4xl font-semibold max-w-4xl leading-10 mb-3 text-zinc-50 text-left">
+        <p className="text-4xl font-normal max-w-4xl leading-10 mb-3 text-zinc-50 text-left">
           Leadership rarely <em>fails</em> loudly. It <em>fractures</em>{" "}
           quietly.
         </p>
