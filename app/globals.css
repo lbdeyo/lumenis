@@ -10,14 +10,14 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-libre-bodoni: var(--font-libre-bodoni);
+  --font-cormorant-garamond: var(--font-cormorant-garamond);
 }
 
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-libre-bodoni), serif;
+  font-family: var(--font-cormorant-garamond), serif;
   text-wrap: balance;
 }
 
