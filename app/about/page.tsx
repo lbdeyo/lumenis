@@ -24,7 +24,7 @@ export default function About() {
               priority
             />
             <div className="space-y-6">
-              <p className="text-lg leading-8 text-white">
+              <p className="text-xl leading-8 text-white">
                 Anna Maria Larsen has spent her career guiding leaders toward
                 clarity, purpose, and growth. As Founder of Lumenis Partners,
                 she brings decades of experience in executive mentoring and
@@ -33,14 +33,14 @@ export default function About() {
                 individuals and organizations.
               </p>
 
-              <p className="text-lg leading-8 text-white">
+              <p className="text-xl leading-8 text-white">
                 Anna Maria&apos;s work is grounded in a deep belief in people
                 and the power of meaningful dialogue. She has partnered with
                 hundreds of senior executives to help them navigate complexity,
                 lead with integrity, and realize their full potential.
               </p>
 
-              <p className="text-lg leading-8 text-white">
+              <p className="text-xl leading-8 text-white">
                 Her commitment to service extends far beyond the boardroom. Anna
                 Maria has held leadership roles on numerous nonprofit boards,
                 including two terms on the National Board of Governors for the
@@ -51,7 +51,7 @@ export default function About() {
                 beauty of nature.&quot;
               </p>
 
-              <p className="text-lg leading-8 text-white">
+              <p className="text-xl leading-8 text-white">
                 A longtime civic leader, Anna Maria co-chaired the transition
                 team for former Colorado Governor Bill Owens, guiding 170
                 leaders in reviewing state agencies and recommending key
@@ -64,7 +64,7 @@ export default function About() {
                 Catholic Bishops.
               </p>
 
-              <p className="text-lg leading-8 text-white">
+              <p className="text-xl leading-8 text-white">
                 Anna Maria holds a Bachelor&apos;s degree from Trinity
                 Washington University (D.C.), a certificate in Organizational
                 Leadership and Not-for-Profit Management from Harvard
@@ -75,12 +75,12 @@ export default function About() {
             <div className="clear-both"></div>
           </div>
 
-          <h2 className="text-4xl font-normal leading-10 tracking-tight mt-12 mb-6 clear-both">
+          <h2 className="text-5xl font-normal leading-10 tracking-tight mt-12 mb-6 clear-both">
             Testimonials
           </h2>
 
           <div className="flex flex-col gap-8 max-w-4xl">
-            <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
+            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;When I stepped into my first company leadership role, Anna
               Maria&apos;s calm, thoughtful guidance helped me slow the game
               down and bring my executive strengths to the surface. Navigating a
@@ -101,7 +101,7 @@ export default function About() {
               priority
             />
 
-            <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
+            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;At what proved to be an inflection point in my
               career—successful but ready for a deeper challenge—Anna Maria
               helped me find the clarity I couldn&apos;t reach on my own. Her
@@ -118,7 +118,7 @@ export default function About() {
               className="float-left rounded-lg mr-6 mb-4 max-w-xs"
               priority
             />
-            <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
+            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;Anna Maria helped me find balance and clarity as CEO of a
               $140M+ organization. I&apos;d always been a strong executor, but
               she helped me uncover a more compassionate leadership style—with
@@ -138,7 +138,7 @@ export default function About() {
               className="float-left rounded-lg mr-6 mb-4 max-w-xs"
               priority
             />
-            <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
+            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;Fresh off selling my business, and looking to develop my
               skills to move to the next level, Anna Maria brought wisdom from
               both her executive experience and her grounded, human
@@ -156,7 +156,7 @@ export default function About() {
               priority
             />
 
-            <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
+            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;Anna Maria&apos;s mentorship transformed not just my career
               but my whole life journey. Her supportive, caring, and challenging
               approach helped me discover myself more deeply, flourish, and lead
@@ -171,7 +171,7 @@ export default function About() {
               className="float-left rounded-lg mr-6 mb-2 max-w-xs"
               priority
             />
-            <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
+            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;Anna Maria helped me as an Executive understand what it
               truly means to be authentic, to operate within my strengths, and
               to be confident in ceding control. She helped me find peace in the
@@ -182,7 +182,7 @@ export default function About() {
               Green, CEO/Entrepreneur
             </blockquote>
 
-            <blockquote className="text-lg leading-8 text-white italic border-l-4 border-white/30 pl-6">
+            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
               &quot;Anna Maria brings a thoughtful, positive, and unique
               approach to the executive journey. She guided me through some
               challenging phases of my leadership career, aways walking beside
