@@ -20,8 +20,8 @@ export default function Home() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-black">
-      <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-black">
+    <div className="flex min-h-screen items-center justify-center bg-[#281e32]">
+      <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-[#281e32]">
         <h1 className="mb-4 mt-2 text-5xl font-normal leading-14 text-left">
           Leadership: The Journey Within
         </h1>
@@ -46,7 +46,7 @@ export default function Home() {
           {!isPlaying && (
             <button
               onClick={handlePlay}
-              className="absolute inset-0 flex items-center justify-center bg-black/30 rounded-lg transition-opacity hover:bg-black/40"
+              className="absolute inset-0 flex items-center justify-center bg-[#281e32]/30 rounded-lg transition-opacity hover:bg-[#281e32]/40"
               aria-label="Play video"
             >
               <svg
