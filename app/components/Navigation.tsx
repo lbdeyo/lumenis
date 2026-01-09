@@ -17,7 +17,7 @@ export default function Navigation() {
       style={{ backgroundColor: "rgb(76, 56, 89)" }}
     >
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <Link href="/" className="transition-opacity hover:opacity-80">
+        <Link href="/" className="transition-all hover:drop-shadow-[0_0_8px_#f9b731,0_0_12px_#f9b731]">
           <Image
             src="/img/lumenis-partners-logo.svg"
             alt="Lumenis Partners"
