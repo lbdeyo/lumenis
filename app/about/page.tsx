@@ -23,53 +23,94 @@ export default function About() {
               className="float-left rounded-lg mr-6 mb-4 max-w-xs"
               priority
             />
-            <div className="space-y-6">
+            <div className="space-y-6 bio-content">
               <p className="text-xl leading-8 text-white">
-                Anna Maria Larsen has spent her career guiding leaders toward
-                clarity, purpose, and growth. As Founder of Lumenis Partners,
-                she brings decades of experience in executive mentoring and
-                executive search, and is known for her ability to ask the right
-                questions, uncover core truths, and draw out the best in
-                individuals and organizations.
+                Anna Maria Larsen has centered her career, her successful
+                business and her community service on a talent for seeking
+                truth, a skill for intuitive listening and a zest for life.
+                Whether leading Lumenis Partners&apos; executive searches for
+                rapidly growing smaller companies or for Fortune 500 companies,
+                or serving on local and national not-for-profit boards,
+                she&apos;s found life to be a continuous flow of adventure and
+                learning. Anna Maria has an uncanny talent for asking the right
+                questions to get to the true needs of organizations and
+                individuals.
               </p>
 
               <p className="text-xl leading-8 text-white">
-                Anna Maria&apos;s work is grounded in a deep belief in people
-                and the power of meaningful dialogue. She has partnered with
-                hundreds of senior executives to help them navigate complexity,
-                lead with integrity, and realize their full potential.
+                Anna Maria began her career in the executive search profession
+                with two Denver firms, Horn Fagen Lund and later the Fitzgerald
+                Group. In 1990 she founded the executive search practice within
+                Larsen Consulting International, now known as Lumenis Partners.
+                Grabbing the reins of this business allowed her to expand the
+                scope of her searches to national, international, and across
+                numerous business verticals. It also allowed Lumenis Partners to
+                develop the personalized and conversational approach so valued
+                by clients and to focus on C-level and VP/Director searches. Her
+                natural and intuitive abilities to articulate the needs of her
+                search clients and her ability to assess candidates has led to a
+                successful retained practice for a mix of large and small
+                businesses and not-for-profit organizations. Joining Anna Maria
+                in Lumenis Partners is her husband, Les Larsen, who brings
+                tremendous knowledge and technical background in technology,
+                telecommunications, energy, and small business sectors.
               </p>
 
               <p className="text-xl leading-8 text-white">
-                Her commitment to service extends far beyond the boardroom. Anna
-                Maria has held leadership roles on numerous nonprofit boards,
-                including two terms on the National Board of Governors for the
-                American Red Cross ($3B+), where she helped select the
-                organization&apos;s CEO and drive transformative change. She
-                also served as a Trustee for the Denver Botanic Gardens,
-                describing it as &quot;a place where people can be lifted by the
-                beauty of nature.&quot;
+                As an outgrowth of her work with senior executives, Anna Maria
+                developed a growing Executive Mentoring practice after seeking
+                additional training in leadership and executive coaching through
+                Harvard and Georgetown Universities. &quot;It all comes down to
+                listening and reflecting back to individuals who they really
+                are,&quot; Anna Maria says. &quot;If a person is questioning or
+                not satisfied with how or what they are achieving in their life,
+                I walk with each of them to help them refocus and rediscover
+                their own strengths and enable them to once again be driven by
+                passion.&quot; She views her practice as one of transitional
+                mentoring rather than problem-solution exercises.
               </p>
 
               <p className="text-xl leading-8 text-white">
-                A longtime civic leader, Anna Maria co-chaired the transition
-                team for former Colorado Governor Bill Owens, guiding 170
-                leaders in reviewing state agencies and recommending key
-                appointments. Her contributions include leadership roles with
-                the Governor&apos;s Commission on Community Service, the Denver
-                Rotary Club, the Girl Scouts, and the Denver Metro Chamber of
-                Commerce, where she helped launch the Small Business Profit
-                Center and founded the Women Business Owners Network. She has
-                also served as a lay adviser to the National Conference of
-                Catholic Bishops.
+                Anna Maria&apos;s passion for truth and her innate curiosity do
+                not stop with Lumenis Partners. Anna Maria is an enthusiastic
+                advocate and volunteer for many local, national and
+                international non-profits serving communities and business. She
+                was a member of the Board of Trustees of the Denver Botanic
+                Gardens. &quot;The Gardens speak to the soul, it&apos;s a place
+                where people can be lifted by the beauty of nature&quot; she
+                says. She recently completed two terms on the National Board of
+                Governors of the American Red Cross. In her role she was
+                instrumental in the selection of the new CEO for this $3 billion
+                organization. Anna Maria is most proud of her work with her
+                fellow Board colleagues as an architect for transformative
+                change in this 130 year-old organization.
+              </p>
+
+              <p className="text-xl leading-8 text-white">
+                Anna Maria co-chaired the transition team for former Colorado
+                Governor Bill Owens, leading a team of 170 business and
+                community leaders in reviewing state government departments and
+                identifying qualified individuals to fill Cabinet posts and key
+                governmental positions. Other past civic activities include
+                Chair of the Governor&apos;s Commission on Community Service,
+                First Vice President of the Denver Rotary Club and President and
+                Trustee of its Foundation, and an advisory board member of the
+                Mile High Council of Girl Scouts. She served on the Board of the
+                Denver Metro Chamber of Commerce. Working with the Chamber, she
+                helped establish the Small Business Profit Center and founded
+                the Women Business Owners Network, which focused on the needs of
+                entrepreneurial women. Active within the Roman Catholic Church,
+                Anna Maria was appointed to a four-year, national term as lay
+                advisor to the National Conference of Catholic Bishops.
               </p>
 
               <p className="text-xl leading-8 text-white">
                 Anna Maria holds a Bachelor&apos;s degree from Trinity
-                Washington University (D.C.), a certificate in Organizational
-                Leadership and Not-for-Profit Management from Harvard
-                University, and a postgraduate certification in Leadership
-                Coaching from Georgetown University.
+                University in Washington, D.C. as well as a certificate in
+                Organizational Leadership and Not-For-Profit Management from
+                Harvard University. Additionally she holds a post graduate
+                certification in Leadership Coaching from Georgetown University
+                and is credentialed by the International Coaching Federation.
               </p>
             </div>
             <div className="clear-both"></div>
