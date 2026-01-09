@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Cormorant_Garamond } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Navigation from "./components/Navigation";
 
@@ -36,6 +37,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${cormorantGaramond.variable} antialiased`}
       >
+        {process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY && (
+          <Script
+            src={`https://www.google.com/recaptcha/api.js?render=${process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}`}
+            strategy="lazyOnload"
+          />
+        )}
         <Navigation />
         {children}
       </body>

@@ -4,7 +4,7 @@ import { Resend } from "resend";
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, phone, comment } = body;
+    const { name, email, phone, comment, recaptchaToken } = body;
 
     // Validate required fields
     if (!name || !email || !phone || !comment) {
@@ -12,6 +12,36 @@ export async function POST(request: NextRequest) {
         { error: "All fields are required" },
         { status: 400 }
       );
+    }
+
+    // Verify reCAPTCHA token
+    if (process.env.RECAPTCHA_SECRET_KEY) {
+      if (!recaptchaToken) {
+        return NextResponse.json(
+          { error: "reCAPTCHA verification failed. Please try again." },
+          { status: 400 }
+        );
+      }
+
+      const recaptchaResponse = await fetch(
+        "https://www.google.com/recaptcha/api/siteverify",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: `secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${recaptchaToken}`,
+        }
+      );
+
+      const recaptchaData = await recaptchaResponse.json();
+
+      if (!recaptchaData.success || recaptchaData.score < 0.5) {
+        return NextResponse.json(
+          { error: "reCAPTCHA verification failed. Please try again." },
+          { status: 400 }
+        );
+      }
     }
 
     // Check if Resend API key is configured
