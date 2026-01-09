@@ -2,6 +2,17 @@
 
 import { useState } from "react";
 
+declare global {
+  interface Window {
+    grecaptcha: {
+      execute: (
+        siteKey: string,
+        options: { action: string }
+      ) => Promise<string>;
+    };
+  }
+}
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -30,12 +41,34 @@ export default function Contact() {
     setSubmitStatus({ type: null, message: "" });
 
     try {
+      // Get reCAPTCHA token
+      const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+      let recaptchaToken = "";
+
+      if (
+        recaptchaSiteKey &&
+        typeof window !== "undefined" &&
+        window.grecaptcha
+      ) {
+        try {
+          recaptchaToken = await window.grecaptcha.execute(recaptchaSiteKey, {
+            action: "submit",
+          });
+        } catch (recaptchaError) {
+          console.error("reCAPTCHA error:", recaptchaError);
+          // Continue without token if reCAPTCHA fails (for development)
+        }
+      }
+
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          recaptchaToken,
+        }),
       });
 
       const data = await response.json();
@@ -75,10 +108,7 @@ export default function Contact() {
             className="flex flex-col gap-6 w-full max-w-2xl"
           >
             <div className="flex flex-col gap-2">
-              <label
-                htmlFor="name"
-                className="text-lg text-zinc-50"
-              >
+              <label htmlFor="name" className="text-lg text-zinc-50">
                 Name
               </label>
               <input
@@ -93,10 +123,7 @@ export default function Contact() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <label
-                htmlFor="email"
-                className="text-lg text-zinc-50"
-              >
+              <label htmlFor="email" className="text-lg text-zinc-50">
                 Email
               </label>
               <input
@@ -111,10 +138,7 @@ export default function Contact() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <label
-                htmlFor="phone"
-                className="text-lg text-zinc-50"
-              >
+              <label htmlFor="phone" className="text-lg text-zinc-50">
                 Phone Number
               </label>
               <input
@@ -129,10 +153,7 @@ export default function Contact() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <label
-                htmlFor="comment"
-                className="text-lg text-zinc-50"
-              >
+              <label htmlFor="comment" className="text-lg text-zinc-50">
                 Comment
               </label>
               <textarea
@@ -142,7 +163,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 rows={6}
-                className="px-4 py-3 border border-zinc-300 dark:border-zinc-600 rounded-lg bg-white dark:bg-zinc-900 text-zinc-950 dark:text-zinc-50 focus:outline-none focus:ring-2 focus:ring-zinc-400 dark:focus:ring-zinc-500 resize-vertical"
+                className="px-4 py-3 border border-zinc-600 rounded-lg bg-zinc-900 text-zinc-50 focus:outline-none focus:ring-2 focus:ring-zinc-500 resize-vertical"
               />
             </div>
 

@@ -14,6 +14,17 @@ export default function About() {
             About Lumenis
           </h1>
 
+          <div className="w-full mb-8">
+            <Image
+              src="/img/about-page-image.jpg"
+              alt=""
+              width={1200}
+              height={600}
+              className="w-full rounded-lg"
+              priority
+            />
+          </div>
+
           <div className="max-w-4xl w-full">
             <Image
               src="/img/anna-maria.avif"
