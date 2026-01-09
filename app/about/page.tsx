@@ -80,17 +80,19 @@ export default function About() {
           </h2>
 
           <div className="flex flex-col gap-8 max-w-4xl">
-            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
-              &quot;When I stepped into my first company leadership role, Anna
-              Maria&apos;s calm, thoughtful guidance helped me slow the game
-              down and bring my executive strengths to the surface. Navigating a
-              Board, working with an ownership group overseas, operating and
-              growing the company all at once could have been overwhelming. Her
-              impact has lasted for years—I still use our notes and continue to
-              call her when challenges arise. I&apos;ve introduced her to my
-              current company and look forward to working with her for years to
-              come.&quot; — Will Loughran, Chief Operating Officer, Concord
-              Hospitality
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;When I stepped into my first company leadership role, Anna
+                Maria&apos;s calm, thoughtful guidance helped me slow the game
+                down and bring my executive strengths to the surface. Navigating
+                a Board, working with an ownership group overseas, operating and
+                growing the company all at once could have been overwhelming.
+                Her impact has lasted for years—I still use our notes and
+                continue to call her when challenges arise. I&apos;ve introduced
+                her to my current company and look forward to working with her
+                for years to come.&quot;
+              </span>{" "}
+              — Will Loughran, Chief Operating Officer, Concord Hospitality
             </blockquote>
             <Image
               src="/testimonial-logos/concord-logo-white.webp"
@@ -101,13 +103,16 @@ export default function About() {
               priority
             />
 
-            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
-              &quot;At what proved to be an inflection point in my
-              career—successful but ready for a deeper challenge—Anna Maria
-              helped me find the clarity I couldn&apos;t reach on my own. Her
-              unique style and process guided me through a pivotal decision that
-              led to greater success and fulfillment. Worth every penny.&quot; —
-              Ramona Mockoviak, Senior Managing Director, Chevy Chase Trust
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;At what proved to be an inflection point in my
+                career—successful but ready for a deeper challenge—Anna Maria
+                helped me find the clarity I couldn&apos;t reach on my own. Her
+                unique style and process guided me through a pivotal decision
+                that led to greater success and fulfillment. Worth every
+                penny.&quot;
+              </span>{" "}
+              — Ramona Mockoviak, Senior Managing Director, Chevy Chase Trust
             </blockquote>
 
             <Image
@@ -118,17 +123,20 @@ export default function About() {
               className="float-left rounded-lg mr-6 mb-4 max-w-xs"
               priority
             />
-            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
-              &quot;Anna Maria helped me find balance and clarity as CEO of a
-              $140M+ organization. I&apos;d always been a strong executor, but
-              she helped me uncover a more compassionate leadership style—with
-              even better results. My team is more aligned and productive. We
-              are unified in mission— working with Anna Maria led to the
-              evolution of our mission, which was much more expansive as we
-              evolved as a team rather than an individual. Personally, I
-              returned to my authentic self, becoming a better partner, parent,
-              and healthier overall—physically, emotionally, and
-              spiritually.&quot; — Mary Kelly, CEO, StrataTech Education Group
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;Anna Maria helped me find balance and clarity as CEO of a
+                $140M+ organization. I&apos;d always been a strong executor, but
+                she helped me uncover a more compassionate leadership style—with
+                even better results. My team is more aligned and productive. We
+                are unified in mission— working with Anna Maria led to the
+                evolution of our mission, which was much more expansive as we
+                evolved as a team rather than an individual. Personally, I
+                returned to my authentic self, becoming a better partner,
+                parent, and healthier overall—physically, emotionally, and
+                spiritually.&quot;
+              </span>{" "}
+              — Mary Kelly, CEO, StrataTech Education Group
             </blockquote>
             <Image
               src="/testimonial-logos/logo_stratatech-white.svg"
@@ -138,14 +146,16 @@ export default function About() {
               className="float-left rounded-lg mr-6 mb-4 max-w-xs"
               priority
             />
-            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
-              &quot;Fresh off selling my business, and looking to develop my
-              skills to move to the next level, Anna Maria brought wisdom from
-              both her executive experience and her grounded, human
-              perspective—sometimes drawn from her family restaurant business
-              experience in New York. Her insights continue to shape the way I
-              approach the world today.&quot; — Sam Jonas, CEO, Serial
-              Entrepreneur.
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;Fresh off selling my business, and looking to develop my
+                skills to move to the next level, Anna Maria brought wisdom from
+                both her executive experience and her grounded, human
+                perspective—sometimes drawn from her family restaurant business
+                experience in New York. Her insights continue to shape the way I
+                approach the world today.&quot;
+              </span>{" "}
+              — Sam Jonas, CEO, Serial Entrepreneur.
             </blockquote>
             <Image
               src="/testimonial-logos/serial-entrepreneur-logo.png"
@@ -156,12 +166,15 @@ export default function About() {
               priority
             />
 
-            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
-              &quot;Anna Maria&apos;s mentorship transformed not just my career
-              but my whole life journey. Her supportive, caring, and challenging
-              approach helped me discover myself more deeply, flourish, and lead
-              with purpose.&quot; — Mooyeon Oh-Park, MD Chief Medical Officer,
-              Burke Rehabilitation Hospital
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;Anna Maria&apos;s mentorship transformed not just my
+                career but my whole life journey. Her supportive, caring, and
+                challenging approach helped me discover myself more deeply,
+                flourish, and lead with purpose.&quot;
+              </span>{" "}
+              — Mooyeon Oh-Park, MD Chief Medical Officer, Burke Rehabilitation
+              Hospital
             </blockquote>
             <Image
               src="/testimonial-logos/burke-logo.png"
@@ -171,23 +184,41 @@ export default function About() {
               className="float-left rounded-lg mr-6 mb-2 max-w-xs"
               priority
             />
-            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
-              &quot;Anna Maria helped me as an Executive understand what it
-              truly means to be authentic, to operate within my strengths, and
-              to be confident in ceding control. She helped me find peace in the
-              midst of chaos, clarity, and authentic power as a leader. I became
-              more effective with my teams and learned to quiet the inner noise
-              that drains energy and hinders lasting success. Her guidance
-              helped me lean more fully into my natural talents.&quot; — Josh
-              Green, CEO/Entrepreneur
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;Anna Maria helped me as an Executive understand what it
+                truly means to be authentic, to operate within my strengths, and
+                to be confident in ceding control. She helped me find peace in
+                the midst of chaos, clarity, and authentic power as a leader. I
+                became more effective with my teams and learned to quiet the
+                inner noise that drains energy and hinders lasting success. Her
+                guidance helped me lean more fully into my natural
+                talents.&quot;
+              </span>{" "}
+              — Josh Green, CEO/Entrepreneur
             </blockquote>
 
-            <blockquote className="text-xl leading-8 text-white italic border-l-4 border-white/30 pl-6">
-              &quot;Anna Maria brings a thoughtful, positive, and unique
-              approach to the executive journey. She guided me through some
-              challenging phases of my leadership career, aways walking beside
-              me with wisdom and care. She is truly one of a kind!&quot; — Jeff
-              Nichols, CEO, Minnesota Autism Center.
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;Anna Maria brings a thoughtful, positive, and unique
+                approach to the executive journey. She guided me through some
+                challenging phases of my leadership career, aways walking beside
+                me with wisdom and care. She is truly one of a kind!&quot;
+              </span>{" "}
+              — Jeff Nichols, CEO, Minnesota Autism Center.
+            </blockquote>
+
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;Anna Maria&apos;s coaching has been transformative in both
+                my professional and personal life. After more than 20 years in
+                leadership, I&apos;ve found new clarity, peace, and purpose —
+                even amid significant challenges. Her rare gift lies not just in
+                strategic guidance, but in helping shift the beliefs and
+                perspectives that unlock flow, presence, and joy.&quot;
+              </span>{" "}
+              — Timothy O&apos;Leary, Executive Director, Washington National
+              Opera
             </blockquote>
           </div>
         </div>
