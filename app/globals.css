@@ -18,7 +18,6 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-cormorant-garamond), serif;
-  text-wrap: balance;
 }
 
 h1 {
@@ -28,4 +27,9 @@ h1 {
 em {
   font-style: italic;
   font-variant: normal;
+}
+
+.bio-content,
+.bio-content p {
+  text-wrap: wrap !important;
 }
