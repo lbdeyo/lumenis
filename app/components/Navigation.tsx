@@ -12,10 +12,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav
-      className="w-full font-sans"
-      style={{ backgroundColor: "rgb(76, 56, 89)" }}
-    >
+    <nav className="w-full font-sans bg-[#281e32] sticky top-0 z-50 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.3),0_2px_4px_-1px_rgba(0,0,0,0.2)]">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <Link href="/" className="transition-all hover:drop-shadow-[0_0_8px_#f9b731,0_0_12px_#f9b731]">
           <Image
