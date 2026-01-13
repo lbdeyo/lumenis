@@ -102,7 +102,11 @@ export default function Contact() {
           <h1 className="text-5xl font-normal leading-10 tracking-tight">
             Contact
           </h1>
-
+          <div className="w-full">
+            <p className="text-2xl font-normal leading-8 text-white ">
+              Let&apos;s talk about your journey.
+            </p>
+          </div>
           <form
             onSubmit={handleSubmit}
             className="flex flex-col gap-6 w-full max-w-2xl"

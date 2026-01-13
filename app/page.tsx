@@ -31,7 +31,8 @@ export default function Home() {
         </p>
         <p className="text-2xl leading-8  text-white">
           When success no longer feels coherent. When clarity matters more than
-          performance. When the work becomes personal.
+          performance. When the work becomes personal. Meet Anna Maria Larsen,
+          Executive Mentor.
         </p>
         <div className="relative w-full mt-8">
           <video
@@ -60,9 +61,9 @@ export default function Home() {
           )}
         </div>
         <p className="text-2xl mt-2 leading-8 text-white">
-          If this resonates, a conversation may be useful.{" "}
+          If this resonates, a conversation with Anna Maria may be useful.{" "}
           <a href="/contact" className="text-teal-200 hover:underline">
-            Request a private introduction with me.
+            Request a private introduction.
           </a>
         </p>
       </main>
