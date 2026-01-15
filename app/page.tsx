@@ -6,6 +6,7 @@ export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [showControls, setShowControls] = useState(false);
+  const [hasVideoEnded, setHasVideoEnded] = useState(false);
 
   const handlePlay = () => {
     if (videoRef.current) {
@@ -17,6 +18,10 @@ export default function Home() {
 
   const handlePause = () => {
     setIsPlaying(false);
+  };
+
+  const handleVideoEnd = () => {
+    setHasVideoEnded(true);
   };
 
   return (
@@ -42,6 +47,7 @@ export default function Home() {
             className="w-full rounded-lg"
             controls={showControls}
             onPause={handlePause}
+            onEnded={handleVideoEnd}
           >
             <source src="/video/lumenis-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -62,12 +68,14 @@ export default function Home() {
             </button>
           )}
         </div>
-        <p className="text-2xl mt-2 leading-8 text-white text-center w-full">
-          If this resonates, a conversation with Anna Maria may be useful.{" "}
-          <a href="/contact" className="text-teal-200 hover:underline">
-            Request a private introduction.
-          </a>
-        </p>
+        {hasVideoEnded && (
+          <p className="text-2xl mt-2 leading-8 text-white text-center w-full">
+            If this resonates, a conversation with Anna Maria may be useful.{" "}
+            <a href="/contact" className="text-teal-200 hover:underline">
+              Request a private introduction.
+            </a>
+          </p>
+        )}
       </main>
     </div>
   );
