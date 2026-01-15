@@ -13,10 +13,13 @@ export default function Navigation() {
 
   return (
     <nav className="w-full font-sans bg-[#281e32] sticky top-0 z-50 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.3),0_2px_4px_-1px_rgba(0,0,0,0.2)]">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <Link href="/" className="transition-all hover:drop-shadow-[0_0_8px_#f9b731,0_0_12px_#f9b731]">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4 relative">
+        <Link
+          href="/"
+          className="transition-all hover:drop-shadow-[0_0_8px_#f9b731,0_0_12px_#f9b731]"
+        >
           <Image
-            src="/img/lumenis-partners-logo.svg"
+            src="/img/old-lumenis-logo.png"
             alt="Lumenis Partners"
             width={250}
             height={63}
@@ -24,17 +27,25 @@ export default function Navigation() {
           />
         </Link>
 
+        {/* Centered Link - Desktop Only */}
+        <Link
+          href="/about"
+          className="hidden md:block absolute left-1/2 transform -translate-x-1/2 text-white transition-colors hover:text-zinc-200 whitespace-nowrap text-base"
+        >
+          Anna Maria Larsen, Executive Mentor
+        </Link>
+
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6">
           <Link
             href="/about"
-            className="text-white transition-colors hover:text-zinc-200"
+            className="text-white transition-colors hover:text-zinc-200 text-base"
           >
             About
           </Link>
           <Link
             href="/contact"
-            className="text-white transition-colors hover:text-zinc-200"
+            className="text-white transition-colors hover:text-zinc-200 text-base"
           >
             Contact
           </Link>

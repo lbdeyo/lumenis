@@ -21,15 +21,17 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-[#281e32]">
-      <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-start justify-start pt-5 pb-32 px-6 bg-[#281e32]">
-        <h1 className="mb-4 mt-2 text-5xl font-normal leading-14 text-left">
-          Leadership: The Journey Within
-        </h1>
-        <p className="text-4xl font-normal max-w-4xl leading-10 mb-3 text-zinc-50 text-left">
-          Leadership rarely <em>fails</em> loudly. It <em>fractures</em>{" "}
-          quietly.
-        </p>
-        <p className="text-2xl leading-8  text-white">
+      <main className="mx-auto flex min-h-screen w-full max-w-5xl flex-col items-center justify-start pt-5 pb-32 px-6 bg-[#281e32]">
+        <div className="w-full flex flex-col items-center">
+          <h1 className="mb-4 mt-2 text-5xl font-normal leading-14 text-center w-full">
+            Leadership: The Journey Within
+          </h1>
+          <p className="text-4xl font-normal max-w-4xl leading-10 mb-3 text-zinc-50 text-center w-full">
+            Leadership rarely <em>fails</em> loudly. It <em>fractures</em>{" "}
+            quietly.
+          </p>
+        </div>
+        <p className="text-2xl leading-8 text-white">
           When success no longer feels coherent. When clarity matters more than
           performance. When the work becomes personal. Meet Anna Maria Larsen,
           Executive Mentor.
@@ -60,7 +62,7 @@ export default function Home() {
             </button>
           )}
         </div>
-        <p className="text-2xl mt-2 leading-8 text-white">
+        <p className="text-2xl mt-2 leading-8 text-white text-center w-full">
           If this resonates, a conversation with Anna Maria may be useful.{" "}
           <a href="/contact" className="text-teal-200 hover:underline">
             Request a private introduction.

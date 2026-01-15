@@ -39,23 +39,24 @@ export default function About() {
                 <h2 className="text-3xl font-normal leading-8 text-white mb-2">
                   Anna Maria Larsen
                 </h2>
-                <p className="text-xl text-white">Founder, Lumenis Partners</p>
+                <p className="text-xl text-white">Executive Mentor</p>
               </div>
 
               <p className="text-xl leading-8 text-white">
                 Anna Maria Larsen has spent her career guiding leaders toward
                 clarity, purpose, and growth. As Founder of Lumenis Partners,
                 she brings decades of experience in executive mentoring and
-                executive search, and is known for her ability to ask the right
-                questions, uncover core truths, and draw out the best in
-                individuals and organizations.
+                previously, executive search. She is known for her ability to
+                ask the right questions, uncover core truths, and draw out the
+                best in individuals and organizations.
               </p>
 
               <p className="text-xl leading-8 text-white">
                 Anna Maria&apos;s work is grounded in a deep belief in people
-                and the power of meaningful dialogue. She has partnered with
-                hundreds of senior executives to help them navigate complexity,
-                lead with integrity, and realize their full potential.
+                and the power of meaningful dialogue. Throughout her career, she
+                has counseled hundreds of senior executives to help them
+                navigate complexity, lead with integrity, and realize their full
+                potential.
               </p>
 
               <p className="text-xl leading-8 text-white">
@@ -64,22 +65,22 @@ export default function About() {
                 including two terms on the National Board of Governors for the
                 American Red Cross ($3B+), where she helped select the
                 organization&apos;s CEO and drive transformative change. She
-                also served as a Trustee for the Denver Botanic Gardens,
-                describing it as &quot;a place where people can be lifted by the
-                beauty of nature.&quot;
+                also served as a Trustee for the Denver Botanic Gardens.
               </p>
 
               <p className="text-xl leading-8 text-white">
                 A longtime civic leader, Anna Maria co-chaired the transition
                 team for former Colorado Governor Bill Owens, guiding 170
                 leaders in reviewing state agencies and recommending key
-                appointments. Her contributions include leadership roles with
-                the Governor&apos;s Commission on Community Service, the Denver
-                Rotary Club, the Girl Scouts, and the Denver Metro Chamber of
-                Commerce, where she helped launch the Small Business Profit
+                appointments. Her contributions include board and leadership
+                roles with the Governor&apos;s Commission on Community Service,
+                the Rotary Club, the Girl Scouts, and the Denver Metro Chamber
+                of Commerce, where she helped launch the Small Business Profit
                 Center and founded the Women Business Owners Network. She has
-                also served as a lay adviser to the National Conference of
-                Catholic Bishops.
+                also served as a lay advisor to the National Conference of
+                Catholic Bishops. Anna Maria has served, and continues to serve,
+                on a number of other not-for-profit Boards in New York and
+                Washington D.C.
               </p>
 
               <p className="text-xl leading-8 text-white">
@@ -213,9 +214,16 @@ export default function About() {
                 guidance helped me lean more fully into my natural
                 talents.&quot;
               </span>{" "}
-              — Josh Green, CEO/Entrepreneur
+              — Josh Green, CEO and Entrepreneur
             </blockquote>
-
+            <Image
+              src="/testimonial-logos/washington-opera-logo.jpg"
+              alt="Washington National Opera"
+              width={200}
+              height={200}
+              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              priority
+            />
             <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
               <span className="italic">
                 &quot;Anna Maria brings a thoughtful, positive, and unique
@@ -224,7 +232,7 @@ export default function About() {
                 me with wisdom and care. She is truly one of a kind!&quot;
               </span>{" "}
               — Jeff Nichols, Advisor/Consultant/Mentor and former CEO of Human
-              Service Agencies, Minnesota Autism Center
+              Service Agencies
             </blockquote>
 
             <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
