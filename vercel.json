@@ -1,3 +1,0 @@
-{
-  "buildCommand": "git lfs install --force && git lfs fetch && git lfs checkout && npm run build"
-}
