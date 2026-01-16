@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Cormorant_Garamond } from "next/font/google";
+import { Geist, Geist_Mono, Cormorant_Garamond, Forum } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import Navigation from "./components/Navigation";
@@ -21,6 +21,12 @@ const cormorantGaramond = Cormorant_Garamond({
   style: ["normal", "italic"],
 });
 
+const forum = Forum({
+  variable: "--font-forum",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
 export const metadata: Metadata = {
   title: "Lumenis Partners",
   description:
@@ -35,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${cormorantGaramond.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${cormorantGaramond.variable} ${forum.variable} antialiased`}
       >
         {process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY && (
           <Script

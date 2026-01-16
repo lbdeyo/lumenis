@@ -36,10 +36,9 @@ export default function Home() {
             quietly.
           </p>
         </div>
-        <p className="text-2xl leading-8 text-white">
+        <p className="text-2xl leading-8 text-white text-center w-full">
           When success no longer feels coherent. When clarity matters more than
-          performance. When the work becomes personal. Meet Anna Maria Larsen,
-          Executive Mentor.
+          performance. When the work becomes personal.
         </p>
         <div className="relative w-full mt-8">
           <video
@@ -49,7 +48,7 @@ export default function Home() {
             onPause={handlePause}
             onEnded={handleVideoEnd}
           >
-            <source src="/video/lumenis-video.mp4" type="video/mp4" />
+            <source src="/video/lumenis-video-edited.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           {!isPlaying && (
@@ -69,12 +68,18 @@ export default function Home() {
           )}
         </div>
         {hasVideoEnded && (
-          <p className="text-2xl mt-2 leading-8 text-white text-center w-full">
-            If this resonates, a conversation with Anna Maria may be useful.{" "}
-            <a href="/contact" className="text-teal-200 hover:underline">
-              Request a private introduction.
-            </a>
-          </p>
+          <div>
+            <p className="text-2xl mt-2 leading-8 text-white text-center w-full">
+              <a href="/contact" className="text-teal-200 hover:underline">
+                If this resonates, request a private conversation.{" "}
+              </a>
+            </p>
+            <p className="text-2xl mt-2 leading-8 text-white text-center w-full">
+              <a href="/about" className="text-teal-200 hover:underline">
+                Meet Anna Maria Larsen.
+              </a>
+            </p>
+          </div>
         )}
       </main>
     </div>

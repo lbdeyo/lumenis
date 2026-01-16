@@ -203,27 +203,7 @@ export default function About() {
               className="float-left rounded-lg mr-6 mb-2 max-w-xs"
               priority
             />
-            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
-              <span className="italic">
-                &quot;Anna Maria helped me as an Executive understand what it
-                truly means to be authentic, to operate within my strengths, and
-                to be confident in ceding control. She helped me find peace in
-                the midst of chaos, clarity, and authentic power as a leader. I
-                became more effective with my teams and learned to quiet the
-                inner noise that drains energy and hinders lasting success. Her
-                guidance helped me lean more fully into my natural
-                talents.&quot;
-              </span>{" "}
-              — Josh Green, CEO and Entrepreneur
-            </blockquote>
-            <Image
-              src="/testimonial-logos/washington-opera-logo.jpg"
-              alt="Washington National Opera"
-              width={200}
-              height={200}
-              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
-              priority
-            />
+
             <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
               <span className="italic">
                 &quot;Anna Maria brings a thoughtful, positive, and unique
@@ -231,8 +211,7 @@ export default function About() {
                 challenging phases of my leadership career, aways walking beside
                 me with wisdom and care. She is truly one of a kind!&quot;
               </span>{" "}
-              — Jeff Nichols, Advisor/Consultant/Mentor and former CEO of Human
-              Service Agencies
+              — Jeff Nichols, Experienced CEO, Human Services Agencies
             </blockquote>
 
             <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
@@ -246,6 +225,27 @@ export default function About() {
               </span>{" "}
               — Timothy O&apos;Leary, Executive Director, Washington National
               Opera
+            </blockquote>
+            <Image
+              src="/testimonial-logos/washington-opera-logo.jpg"
+              alt="Washington National Opera"
+              width={200}
+              height={200}
+              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              priority
+            />
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;Anna Maria helped me as an Executive understand what it
+                truly means to be authentic, to operate within my strengths, and
+                to be confident in ceding control. She helped me find peace in
+                the midst of chaos, clarity, and authentic power as a leader. I
+                became more effective with my teams and learned to quiet the
+                inner noise that drains energy and hinders lasting success. Her
+                guidance helped me lean more fully into my natural
+                talents.&quot;
+              </span>{" "}
+              — Josh Green, CEO and Entrepreneur
             </blockquote>
           </div>
         </div>
