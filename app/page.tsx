@@ -48,7 +48,7 @@ export default function Home() {
             onPause={handlePause}
             onEnded={handleVideoEnd}
           >
-            <source src="/video/lumenis-video-edited.mp4" type="video/mp4" />
+            <source src="/video/lumenis-video-e2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           {!isPlaying && (
