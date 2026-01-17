@@ -82,6 +82,14 @@ export default function Navigation() {
           <div className="flex flex-col px-6 py-4 gap-4">
             <Link
               href="/about"
+              className="text-[#f9b731] transition-colors hover:text-[#f9b731]/80 text-xl"
+              style={{ fontFamily: 'var(--font-forum), serif' }}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Anna Maria Larsen, Executive Mentor
+            </Link>
+            <Link
+              href="/about"
               className="text-white transition-colors hover:text-zinc-200"
               onClick={() => setIsMenuOpen(false)}
             >
