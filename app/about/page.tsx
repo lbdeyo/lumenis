@@ -25,13 +25,13 @@ export default function About() {
             />
           </div>
 
-          <div className="max-w-4xl w-full">
+          <div className="max-w-4xl  w-full">
             <Image
               src="/img/anna-maria.avif"
               alt="Anna Maria Larsen"
               width={300}
               height={400}
-              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              className="float-left rounded-lg  mr-6 mb-4 max-w-xs"
               priority
             />
             <div className="space-y-6 bio-content">
@@ -118,10 +118,29 @@ export default function About() {
               alt="Concord Hospitality"
               width={200}
               height={200}
-              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              className="float-left  mr-6 mb-4 max-w-xs"
               priority
             />
-
+  <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;Anna Maria&apos;s coaching has been transformative in both
+                my professional and personal life. After more than 20 years in
+                leadership, I&apos;ve found new clarity, peace, and purpose —
+                even amid significant challenges. Her rare gift lies not just in
+                strategic guidance, but in helping shift the beliefs and
+                perspectives that unlock flow, presence, and joy.&quot;
+              </span>{" "}
+              — Timothy O&apos;Leary, Executive Director, Washington National
+              Opera
+            </blockquote>
+            <Image
+              src="/testimonial-logos/washington-opera-logo.jpg"
+              alt="Washington National Opera"
+              width={200}
+              height={200}
+              className="float-left  mr-6 mb-4 max-w-xs"
+              priority
+            />
             <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
               <span className="italic">
                 &quot;At what proved to be an inflection point in my
@@ -139,7 +158,7 @@ export default function About() {
               alt="Chevy Chase Trust"
               width={300}
               height={400}
-              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              className="float-left  mr-6 mb-4 max-w-xs"
               priority
             />
             <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
@@ -162,26 +181,28 @@ export default function About() {
               alt="StrataTech Education Group"
               width={200}
               height={200}
-              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              className="float-left  mr-6 mb-4 max-w-xs"
               priority
             />
-            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+           <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
               <span className="italic">
-                &quot;Fresh off selling my business, and looking to develop my
-                skills to move to the next level, Anna Maria brought wisdom from
-                both her executive experience and her grounded, human
-                perspective—sometimes drawn from her family restaurant business
-                experience in New York. Her insights continue to shape the way I
-                approach the world today.&quot;
+                &quot;Anna Maria helped me as an Executive understand what it
+                truly means to be authentic, to operate within my strengths, and
+                to be confident in ceding control. She helped me find peace in
+                the midst of chaos, clarity, and authentic power as a leader. I
+                became more effective with my teams and learned to quiet the
+                inner noise that drains energy and hinders lasting success. Her
+                guidance helped me lean more fully into my natural
+                talents.&quot;
               </span>{" "}
-              — Sam Jonas, CEO, Serial Entrepreneur.
+              — Josh Green, CEO and Entrepreneur
             </blockquote>
             <Image
-              src="/testimonial-logos/serial-entrepreneur-logo.png"
-              alt="Serial Entrepreneur"
+              src="/testimonial-logos/ceo-and-entrepreneuer.png"
+              alt="Washington National Opera"
               width={200}
               height={200}
-              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              className="float-left  mr-6 mb-4 max-w-xs"
               priority
             />
 
@@ -200,7 +221,7 @@ export default function About() {
               alt="Burke Rehabilitation Hospital"
               width={200}
               height={200}
-              className="float-left rounded-lg mr-6 mb-2 max-w-xs"
+              className="float-left mr-6 mb-2 max-w-xs"
               priority
             />
 
@@ -213,40 +234,35 @@ export default function About() {
               </span>{" "}
               — Jeff Nichols, Experienced CEO, Human Services Agencies
             </blockquote>
-
-            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
-              <span className="italic">
-                &quot;Anna Maria&apos;s coaching has been transformative in both
-                my professional and personal life. After more than 20 years in
-                leadership, I&apos;ve found new clarity, peace, and purpose —
-                even amid significant challenges. Her rare gift lies not just in
-                strategic guidance, but in helping shift the beliefs and
-                perspectives that unlock flow, presence, and joy.&quot;
-              </span>{" "}
-              — Timothy O&apos;Leary, Executive Director, Washington National
-              Opera
-            </blockquote>
             <Image
-              src="/testimonial-logos/washington-opera-logo.jpg"
-              alt="Washington National Opera"
+              src="/testimonial-logos/experienced-ceo-logo.png"
+              alt="Burke Rehabilitation Hospital"
               width={200}
               height={200}
-              className="float-left rounded-lg mr-6 mb-4 max-w-xs"
+              className="float-left mr-6 mb-2 max-w-xs"
               priority
             />
-            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+          
+           
+              <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
               <span className="italic">
-                &quot;Anna Maria helped me as an Executive understand what it
-                truly means to be authentic, to operate within my strengths, and
-                to be confident in ceding control. She helped me find peace in
-                the midst of chaos, clarity, and authentic power as a leader. I
-                became more effective with my teams and learned to quiet the
-                inner noise that drains energy and hinders lasting success. Her
-                guidance helped me lean more fully into my natural
-                talents.&quot;
+                &quot;Fresh off selling my business, and looking to develop my
+                skills to move to the next level, Anna Maria brought wisdom from
+                both her executive experience and her grounded, human
+                perspective—sometimes drawn from her family restaurant business
+                experience in New York. Her insights continue to shape the way I
+                approach the world today.&quot;
               </span>{" "}
-              — Josh Green, CEO and Entrepreneur
+              — Sam Jonas, CEO, Serial Entrepreneur.
             </blockquote>
+            <Image
+              src="/testimonial-logos/serial-entrepreneur-logo.png"
+              alt="Serial Entrepreneur"
+              width={200}
+              height={200}
+              className="float-left  mr-6 mb-4 max-w-xs"
+              priority
+            />
           </div>
         </div>
       </main>
