@@ -121,26 +121,7 @@ export default function About() {
               className="float-left  mr-6 mb-4 max-w-xs"
               priority
             />
-  <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
-              <span className="italic">
-                &quot;Anna Maria&apos;s coaching has been transformative in both
-                my professional and personal life. After more than 20 years in
-                leadership, I&apos;ve found new clarity, peace, and purpose —
-                even amid significant challenges. Her rare gift lies not just in
-                strategic guidance, but in helping shift the beliefs and
-                perspectives that unlock flow, presence, and joy.&quot;
-              </span>{" "}
-              — Timothy O&apos;Leary, Executive Director, Washington National
-              Opera
-            </blockquote>
-            <Image
-              src="/testimonial-logos/washington-opera-logo.jpg"
-              alt="Washington National Opera"
-              width={200}
-              height={200}
-              className="float-left  mr-6 mb-4 max-w-xs"
-              priority
-            />
+
             <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
               <span className="italic">
                 &quot;At what proved to be an inflection point in my
@@ -158,6 +139,26 @@ export default function About() {
               alt="Chevy Chase Trust"
               width={300}
               height={400}
+              className="float-left  mr-6 mb-4 max-w-xs"
+              priority
+            />
+              <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+              <span className="italic">
+                &quot;Anna Maria&apos;s coaching has been transformative in both
+                my professional and personal life. After more than 20 years in
+                leadership, I&apos;ve found new clarity, peace, and purpose —
+                even amid significant challenges. Her rare gift lies not just in
+                strategic guidance, but in helping shift the beliefs and
+                perspectives that unlock flow, presence, and joy.&quot;
+              </span>{" "}
+              — Timothy O&apos;Leary, Executive Director, Washington National
+              Opera
+            </blockquote>
+            <Image
+              src="/testimonial-logos/washington-opera-logo.jpg"
+              alt="Washington National Opera"
+              width={200}
+              height={200}
               className="float-left  mr-6 mb-4 max-w-xs"
               priority
             />
