@@ -13,7 +13,7 @@ export default function Navigation() {
 
   return (
     <nav className="w-full font-sans bg-[#281e32] sticky top-0 z-50 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.3),0_2px_4px_-1px_rgba(0,0,0,0.2)]">
-      <div className="mx-auto flex max-w-5xl items-center px-6 py-4 relative">
+      <div className="mx-auto flex max-w-5xl items-center pl-6 pr-2 md:px-6 py-4 relative">
         <Link
           href="/"
           className="transition-all hover:drop-shadow-[0_0_8px_#f9b731,0_0_12px_#f9b731] flex-shrink-0"
@@ -55,7 +55,7 @@ export default function Navigation() {
         {/* Mobile Hamburger Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-white focus:outline-none"
+          className="md:hidden text-white focus:outline-none ml-auto"
           aria-label="Toggle menu"
         >
           <svg

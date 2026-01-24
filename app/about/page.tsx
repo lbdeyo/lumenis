@@ -142,7 +142,7 @@ export default function About() {
               className="float-left  mr-6 mb-4 max-w-xs"
               priority
             />
-              <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
               <span className="italic">
                 &quot;Anna Maria&apos;s coaching has been transformative in both
                 my professional and personal life. After more than 20 years in
@@ -185,7 +185,7 @@ export default function About() {
               className="float-left  mr-6 mb-4 max-w-xs"
               priority
             />
-           <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
               <span className="italic">
                 &quot;Anna Maria helped me as an Executive understand what it
                 truly means to be authentic, to operate within my strengths, and
@@ -243,9 +243,8 @@ export default function About() {
               className="float-left mr-6 mb-2 max-w-xs"
               priority
             />
-          
-           
-              <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
+
+            <blockquote className="text-xl leading-8 text-white border-l-4 border-white/30 pl-6">
               <span className="italic">
                 &quot;Fresh off selling my business, and looking to develop my
                 skills to move to the next level, Anna Maria brought wisdom from
