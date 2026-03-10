@@ -37,9 +37,12 @@ export default function Home() {
           </p>
         </div>
         <p className="text-xl md:text-2xl leading-8 text-white text-left w-full md:max-w-3xl self-start">
-          When success no longer feels coherent. When clarity matters more than
-          performance. When the work becomes personal. Please click on the short
-          video&nbsp;below.
+          When success no longer feels coherent...
+          <br /> When clarity matters more than performance...
+          <br /> When the work becomes personal...
+        </p>
+        <p className="text-xl leading-8 text-white text-center w-full md:max-w-3xl self-start italic">
+          <i>Please click on the short video&nbsp;below.</i>
         </p>
         <div className="relative w-full mt-8">
           <video
