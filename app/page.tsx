@@ -41,10 +41,11 @@ export default function Home() {
           <br /> When clarity matters more than performance...
           <br /> When the work becomes personal...
         </p>
-        <p className="text-xl leading-8 text-white text-center w-full md:max-w-3xl self-start italic">
-          <i>Please click on the short video&nbsp;below.</i>
-        </p>
+
         <div className="relative w-full mt-8">
+          <p className="text-xl leading-8 text-white text-center w-full self-start italic mb-2">
+            <i>Please click on the short video&nbsp;below.</i>
+          </p>
           <video
             ref={videoRef}
             className="w-full rounded-lg"
