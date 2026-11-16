@@ -2,6 +2,13 @@
 
 import { useRef, useState } from "react";
 
+const podcastEpisode = {
+  id: "14GO0XWDl64",
+  poster: "/video/tula-episode-2.jpg",
+  title: "The New Leadership Consciousness in Business Today",
+  credit: "with Anna Maria Larsen · Episode 2",
+};
+
 const podcastClips = [
   {
     src: "/video/01-only-person-you-can-change.mp4",
@@ -27,6 +34,7 @@ export default function Home() {
   const [clipControls, setClipControls] = useState(() =>
     podcastClips.map(() => false)
   );
+  const [episodePlaying, setEpisodePlaying] = useState(false);
 
   const pauseOthers = (current: HTMLVideoElement | null) => {
     [heroRef.current, ...clipRefs.current].forEach((video) => {
@@ -40,6 +48,7 @@ export default function Home() {
     const video = heroRef.current;
     if (!video) return;
     pauseOthers(video);
+    setEpisodePlaying(false);
     video.play();
     setIsPlaying(true);
     setShowControls(true);
@@ -57,6 +66,7 @@ export default function Home() {
     const video = clipRefs.current[index];
     if (!video) return;
     pauseOthers(video);
+    setEpisodePlaying(false);
     video.play();
     setClipPlaying((current) =>
       current.map((playing, i) => (i === index ? true : playing))
@@ -135,6 +145,49 @@ export default function Home() {
           <p className="text-xl leading-8 text-white text-center w-full italic mb-6">
             <i>From the Tula Science Podcast.</i>
           </p>
+          <figure className="mb-10">
+            <div className="relative">
+              {episodePlaying ? (
+                <iframe
+                  className="aspect-video w-full rounded-lg"
+                  src={`https://www.youtube-nocookie.com/embed/${podcastEpisode.id}?autoplay=1&rel=0`}
+                  title={`${podcastEpisode.title}, ${podcastEpisode.credit}`}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              ) : (
+                <>
+                  <img
+                    src={podcastEpisode.poster}
+                    alt=""
+                    className="aspect-video w-full rounded-lg object-cover"
+                  />
+                  <button
+                    onClick={() => {
+                      pauseOthers(null);
+                      setEpisodePlaying(true);
+                    }}
+                    className="absolute inset-0 flex items-center justify-center bg-[#281e32]/30 rounded-lg transition-opacity hover:bg-[#281e32]/40"
+                    aria-label={`Play video: ${podcastEpisode.title}, ${podcastEpisode.credit}`}
+                  >
+                    <svg
+                      className="w-20 h-20 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </button>
+                </>
+              )}
+            </div>
+            <figcaption className="mt-3 text-center text-lg md:text-xl leading-7 text-zinc-100">
+              {podcastEpisode.title}
+              <span className="mt-1 block text-base md:text-lg text-zinc-300">
+                {podcastEpisode.credit}
+              </span>
+            </figcaption>
+          </figure>
           <div className="grid w-full grid-cols-1 gap-10 md:grid-cols-2 md:gap-8">
             {podcastClips.map((clip, index) => (
               <figure key={clip.src} className="min-w-0">
